@@ -1,0 +1,46 @@
+/* Import Theme Variables */
+@import './styles/theme.css';
+
+.App {
+    min-height: 100vh;
+    background-color: var(--bg-primary);
+}
+
+/* Smooth transitions for interactive elements */
+button, a, input, select, textarea {
+    transition: color var(--transition-base), 
+                background-color var(--transition-base),
+                border-color var(--transition-base),
+                box-shadow var(--transition-base);
+}
+
+/* Focus styles */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+}
+
+/* Remove default button styles */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Ensure images are responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* RTL Support */
+[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Canvas for 3D Models */
+canvas {
+    outline: none;
+}

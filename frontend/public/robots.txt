@@ -1,0 +1,27 @@
+# robots.txt - عيادة د. عبد الرحمن القاري
+# Dental Clinic Website
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private paths (none currently)
+# Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://a6a8a486-12a4-4067-96d2-2eee635010ba.preview.emergentagent.com/sitemap.xml
+
+# Allow major search engine bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /

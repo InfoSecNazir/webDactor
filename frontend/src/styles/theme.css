@@ -1,0 +1,359 @@
+/* Theme Variables for Dr. Al-Qari Dental Clinic - Modern Design */
+:root {
+  /* Brand Colors - Modern Palette */
+  --navy: #0A1628;
+  --navy-light: #1A2B47;
+  --navy-lighter: #2A3B57;
+  
+  --gold: #C9A84C;
+  --gold-light: #E8D49A;
+  --gold-dark: #B89840;
+  
+  /* Modern Secondary Colors */
+  --teal: #14B8A6;
+  --teal-light: #5EEAD4;
+  --sky-blue: #38BDF8;
+  --sky-blue-light: #7DD3FC;
+  
+  --white: #FFFFFF;
+  --warm-white: #FEFDFB;
+  --off-white: #F8FAFC;
+  
+  /* Semantic Colors */
+  --primary: #0A1628;
+  --secondary: #C9A84C;
+  --accent: #14B8A6;
+  
+  --text-primary: #0A1628;
+  --text-secondary: #475569;
+  --text-light: #94A3B8;
+  
+  /* Background Colors */
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #F8FAFC;
+  --bg-accent: #FFF8E7;
+  --bg-gradient-start: #F0F9FF;
+  --bg-gradient-end: #FFF8E7;
+  
+  /* Modern Gradients */
+  --gradient-gold: linear-gradient(135deg, #C9A84C 0%, #E8D49A 50%, #F4E9C1 100%);
+  --gradient-navy: linear-gradient(135deg, #0A1628 0%, #1A2B47 50%, #2A3B57 100%);
+  --gradient-teal: linear-gradient(135deg, #14B8A6 0%, #5EEAD4 100%);
+  --gradient-sky: linear-gradient(135deg, #38BDF8 0%, #7DD3FC 100%);
+  --gradient-mixed: linear-gradient(135deg, #0A1628 0%, #14B8A6 50%, #C9A84C 100%);
+  --gradient-glow: radial-gradient(circle at center, rgba(201, 168, 76, 0.15) 0%, transparent 70%);
+  
+  /* Modern Shadows */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 2px 8px rgba(10, 22, 40, 0.08);
+  --shadow-md: 0 4px 16px rgba(10, 22, 40, 0.12);
+  --shadow-lg: 0 8px 32px rgba(10, 22, 40, 0.16);
+  --shadow-xl: 0 16px 48px rgba(10, 22, 40, 0.2);
+  --shadow-2xl: 0 24px 64px rgba(10, 22, 40, 0.24);
+  --shadow-glow: 0 0 32px rgba(201, 168, 76, 0.3);
+  --shadow-teal: 0 8px 32px rgba(20, 184, 166, 0.2);
+  
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* Dark Mode Variables */
+.dark-mode {
+  /* Background Colors */
+  --bg-primary: #0A1628;
+  --bg-secondary: #1A2B47;
+  --bg-accent: #2A3B57;
+  --bg-gradient-start: #0A1628;
+  --bg-gradient-end: #1A2B47;
+  
+  /* Text Colors */
+  --text-primary: #FFFFFF;
+  --text-secondary: #E2E8F0;
+  --text-light: #CBD5E1;
+  
+  /* Semantic Colors */
+  --primary: #FFFFFF;
+  --secondary: #C9A84C;
+  --accent: #14B8A6;
+  
+  /* Shadows for Dark Mode */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.6);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.7);
+  --shadow-2xl: 0 24px 64px rgba(0, 0, 0, 0.8);
+  --shadow-glow: 0 0 32px rgba(201, 168, 76, 0.4);
+  --shadow-teal: 0 8px 32px rgba(20, 184, 166, 0.3);
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+/* Typography */
+body {
+  font-family: 'Tajawal', 'Cairo', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--text-primary);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.01em;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--gold) 0%, var(--gold-dark) 100%);
+  border-radius: 6px;
+  border: 2px solid var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-dark);
+}
+
+/* Selection */
+::selection {
+  background: var(--teal-light);
+  color: var(--navy);
+}
+
+/* Modern Card Styles */
+.card-modern {
+  background: var(--white);
+  border-radius: 16px;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+}
+
+.card-modern:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
+}
+
+/* Glassmorphism Effect */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: var(--gradient-mixed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Animated Gradient Background */
+@keyframes gradient-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animated-gradient {
+  background: linear-gradient(270deg, #0A1628, #14B8A6, #C9A84C, #0A1628);
+  background-size: 400% 400%;
+  animation: gradient-shift 15s ease infinite;
+}
+
+/* Dark Mode Transitions */
+.dark-mode {
+  transition: background-color var(--transition-base), color var(--transition-base);
+}
+
+.dark-mode * {
+  transition: background-color var(--transition-base), color var(--transition-base), border-color var(--transition-base);
+}
+
+/* Dark Mode Scrollbar */
+.dark-mode::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+.dark-mode::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--gold) 0%, var(--gold-dark) 100%);
+  border: 2px solid var(--bg-secondary);
+}
+
+/* Dark Mode Selection */
+.dark-mode ::selection {
+  background: rgba(20, 184, 166, 0.3);
+  color: var(--text-primary);
+}
+
+/* Dark Mode Card Styles */
+.dark-mode .card-modern {
+  background: var(--bg-secondary);
+  box-shadow: var(--shadow-lg);
+}
+
+.dark-mode .card-modern:hover {
+  box-shadow: var(--shadow-2xl);
+}
+
+/* Dark Mode Glass Effect */
+.dark-mode .glass {
+  background: rgba(26, 43, 71, 0.7);
+  border: 1px solid rgba(201, 168, 76, 0.2);
+}
+
+/* Utility Classes for Dark Mode Support */
+.bg-primary {
+  background-color: var(--bg-primary);
+}
+
+.bg-secondary {
+  background-color: var(--bg-secondary);
+}
+
+.text-primary {
+  color: var(--text-primary);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+/* Hero Section Dark Mode Support */
+.dark-mode .hero-gradient {
+  background: linear-gradient(135deg, #0A1628 0%, #1A2B47 50%, #0A1628 100%) !important;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #0A1628 0%, #1A2B47 50%, #0A1628 100%);
+}
+
+/* Section Backgrounds */
+.section-bg-light {
+  background-color: #FFFFFF;
+}
+
+.dark-mode .section-bg-light {
+  background-color: var(--bg-secondary);
+}
+
+.section-bg-secondary {
+  background-color: #F8FAFC;
+}
+
+.dark-mode .section-bg-secondary {
+  background-color: #1A2B47;
+}
+
+/* Card Backgrounds */
+.card-bg {
+  background-color: #FFFFFF;
+}
+
+.dark-mode .card-bg {
+  background-color: #1A2B47;
+}
+
+/* Borders */
+.border-light {
+  border-color: #E5E7EB;
+}
+
+.dark-mode .border-light {
+  border-color: #374151;
+}
+
+/* Text Colors */
+.text-heading {
+  color: #0A1628;
+}
+
+.dark-mode .text-heading {
+  color: #FFFFFF;
+}
+
+.text-body {
+  color: #475569;
+}
+
+.dark-mode .text-body {
+  color: #E2E8F0;
+}
+
+/* ===== Performance Optimizations ===== */
+
+/* GPU-accelerated transitions */
+.transition-colors,
+.card-bg,
+.text-heading,
+.text-body {
+  will-change: auto;
+}
+
+/* Smooth font rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Reduce reflow on scroll */
+img {
+  content-visibility: auto;
+}
+
+/* ===== Input Border Styling ===== */
+input, textarea, select {
+  border-color: var(--border-light, #E5E7EB);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.dark-mode input, .dark-mode textarea, .dark-mode select {
+  border-color: #374151;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+/* Form Elements Dark Mode */
+.dark-mode input,
+.dark-mode textarea,
+.dark-mode select {
+  background-color: #1A2B47;
+  color: #FFFFFF;
+  border-color: #374151;
+}
+
+.dark-mode input::placeholder,
+.dark-mode textarea::placeholder {
+  color: #9CA3AF;
+}
+
+.dark-mode input:focus,
+.dark-mode textarea:focus,
+.dark-mode select:focus {
+  background-color: #2A3B57;
+  border-color: #14B8A6;
+}
+

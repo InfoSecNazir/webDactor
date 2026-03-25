@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- الصفحة الرئيسية -->
+  <url>
+    <loc>https://a6a8a486-12a4-4067-96d2-2eee635010ba.preview.emergentagent.com/</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a6a8a486-12a4-4067-96d2-2eee635010ba.preview.emergentagent.com/"/>
+  </url>
+
+  <!-- عن الدكتور -->
+  <url>
+    <loc>https://a6a8a486-12a4-4067-96d2-2eee635010ba.preview.emergentagent.com/about</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a6a8a486-12a4-4067-96d2-2eee635010ba.preview.emergentagent.com/about"/>
+  </url>
+
+  <!-- الخدمات -->
+  <url>
+    <loc>https://a6a8a486-12a4-4067-96d2-2eee635010ba.preview.emergentagent.com/services</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a6a8a486-12a4-4067-96d2-2eee635010ba.preview.emergentagent.com/services"/>
+  </url>
+
+  <!-- التجهيزات -->
+  <url>
+    <loc>https://a6a8a486-12a4-4067-96d2-2eee635010ba.preview.emergentagent.com/equipment</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a6a8a486-12a4-4067-96d2-2eee635010ba.preview.emergentagent.com/equipment"/>
+  </url>
+
+  <!-- آراء المرضى -->
+  <url>
+    <loc>https://a6a8a486-12a4-4067-96d2-2eee635010ba.preview.emergentagent.com/testimonials</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a6a8a486-12a4-4067-96d2-2eee635010ba.preview.emergentagent.com/testimonials"/>
+  </url>
+
+  <!-- احجز موعد -->
+  <url>
+    <loc>https://a6a8a486-12a4-4067-96d2-2eee635010ba.preview.emergentagent.com/contact</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://a6a8a486-12a4-4067-96d2-2eee635010ba.preview.emergentagent.com/contact"/>
+  </url>
+
+</urlset>
